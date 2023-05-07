@@ -11,13 +11,13 @@ auto lo
 iface lo inet loopback
 
 #configuaracion del route local
-auto ens3
+allow-hotplug ens3
 iface ens3 inet static
 	address 10.10.50.128
 	netmask 255.255.255.252
 	#gateway 10.10.50.
 
-auto ens8
+allow-hotplug ens8
 iface ens8 inet static
 	address 10.10.50.153
 	netmask 255.255.255.252
