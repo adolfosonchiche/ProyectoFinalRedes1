@@ -34,7 +34,7 @@ EOF
 echo "end"
 
 echo "restart network"
-sudo nano systemctl restart networking
+sudo systemctl restart networking
 
 echo "ready"
 
