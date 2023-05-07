@@ -19,7 +19,7 @@ iface ens3 inet static
 
 auto ens8
 iface ens8 inet static
-	address 10.10.50.156
+	address 10.10.50.158
 	netmask 255.255.255.224
 	gateway 10.10.50.157
 

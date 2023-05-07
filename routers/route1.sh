@@ -19,15 +19,15 @@ iface ens3 inet static
 
 auto ens8
 iface ens8 inet static
-	address 10.10.50.136
-	netmask 255.255.255.224
-	gateway 10.10.50.137
+	address 10.10.50.137
+	netmask 255.255.255.252
+	gateway 10.10.50.138
 
-#auto ens9
-#iface ens9 inet static
-	#address 10.10.50.144
-	#netmask 255.255.255.224
-	#gateway 10.10.50.145
+auto ens9
+iface ens9 inet static
+	address 10.10.50.161
+	netmask 255.255.255.252
+	gateway 10.10.50.162
 
 EOF
 echo "end"

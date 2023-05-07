@@ -13,45 +13,45 @@ iface lo inet loopback
 #configuaracion del route local
 auto ens3
 iface ens3 inet static
-	address 10.10.50.145
-	netmask 255.255.255.224
-	gateway 10.10.50.144
+	address 10.10.50.162
+	netmask 255.255.255.252
+	gateway 10.10.50.161
 
 auto ens8
 iface ens8 inet static
-	address 10.10.50.147
-	netmask 255.255.255.224
-	gateway 10.10.50.146
+	address 10.10.50.166
+	netmask 255.255.255.252
+	gateway 10.10.50.165
 
 auto ens9
 iface ens9 inet static
-	address 10.10.50.149
-	netmask 255.255.255.224
-	gateway 10.10.50.148
+	address 10.10.50.170
+	netmask 255.255.255.252
+	gateway 10.10.50.169
 
 auto ens10
 iface ens10 inet static
-	address 10.10.50.151
-	netmask 255.255.255.224
-	gateway 10.10.50.150
+	address 10.10.50.174
+	netmask 255.255.255.252
+	gateway 10.10.50.173
 
 auto ens11
 iface ens11 inet static
-	address 10.10.50.153
-	netmask 255.255.255.224
-	gateway 10.10.50.152
+	address 10.10.50.178
+	netmask 255.255.255.252
+	gateway 10.10.50.177
 
 auto ens12
 iface ens12 inet static
-	address 10.10.50.155
-	netmask 255.255.255.224
-	gateway 10.10.50.154
+	address 10.10.50.154
+	netmask 255.255.255.252
+	gateway 10.10.50.153
 
-auto ens10
+auto ens13
 iface ens10 inet static
-	address 10.10.50.157
-	netmask 255.255.255.224
-	gateway 10.10.50.156
+	address 10.10.50.158
+	netmask 255.255.255.252
+	gateway 10.10.50.157
 
 EOF
 echo "end"
