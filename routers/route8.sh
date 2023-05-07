@@ -21,7 +21,7 @@ allow-hotplug ens8
 iface ens8 inet static
 	address 10.10.50.157
 	netmask 255.255.255.252
-	gateway 10.10.50.158
+	#gateway 10.10.50.158
 
 
 EOF

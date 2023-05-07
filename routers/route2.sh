@@ -21,19 +21,19 @@ allow-hotplug ens8
 iface ens8 inet static
 	address 10.10.50.138
 	netmask 255.255.255.252
-	gateway 10.10.50.137
+	#gateway 10.10.50.137
 
 allow-hotplug ens9
 iface ens9 inet static
 	address 10.10.50.141
 	netmask 255.255.255.252
-	gateway 10.10.50.142
+	#gateway 10.10.50.142
 
 allow-hotplug ens10
 iface ens10 inet static
 	address 10.10.50.165
 	netmask 255.255.255.252
-	gateway 10.10.50.166
+	#gateway 10.10.50.166
 
 EOF
 echo "end"

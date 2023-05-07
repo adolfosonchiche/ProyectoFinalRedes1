@@ -12,22 +12,7 @@ iface lo inet loopback
 
 #configuaracion del route local
 allow-hotplug ens3
-iface ens3 inet static
-	address 10.10.50.88
-	netmask 255.255.255.248
-	#gateway 10.10.50.88
-
-allow-hotplug ens8
-iface ens8 inet static
-	address 10.10.50.137
-	netmask 255.255.255.252
-	#gateway 10.10.50.138
-
-allow-hotplug ens9
-iface ens9 inet static
-	address 10.10.50.161
-	netmask 255.255.255.252
-	#gateway 10.10.50.162
+iface ens3 inet dhcp
 
 EOF
 echo "end"
