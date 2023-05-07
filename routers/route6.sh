@@ -48,7 +48,7 @@ iface ens12 inet static
 	gateway 10.10.50.153
 
 allow-hotplug ens13
-iface ens10 inet static
+iface ens13 inet static
 	address 10.10.50.158
 	netmask 255.255.255.252
 	gateway 10.10.50.157
