@@ -11,7 +11,7 @@ auto lo
 iface lo inet loopback
 
 #configuaracion del cliente7
-auto ens3
+allow-hotplug ens3
 iface ens3 inet static
 	address 10.10.50.99
 	netmask 255.255.255.248
