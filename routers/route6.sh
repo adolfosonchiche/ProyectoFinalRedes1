@@ -11,6 +11,11 @@ auto lo
 iface lo inet loopback
 
 #configuaracion del route local
+allow-hotplug ens14
+iface ens14 inet static
+	address 10.10.50.160
+	netmask 255.255.255.252
+
 allow-hotplug ens3
 iface ens3 inet static
 	address 10.10.50.162
